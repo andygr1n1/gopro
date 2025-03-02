@@ -6,5 +6,10 @@ import (
 
 func main() {
 
-	lib.FmtExamples()
+	// lib.FmtExamples()
+	// lib.Switch()
+	// lib.Defer()
+	// lib.Recover()
+	// lib.Pointers()
+	lib.Struct()
 }
