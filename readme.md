@@ -6,3 +6,6 @@
 
 // test
 ```go vet ./...```
+
+//to get a new lib
+```go get github.com/go-playground/validator/v10```

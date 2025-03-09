@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gopro/lib"
+	"github.com/gotutorials/lib"
 )
 
 func main() {

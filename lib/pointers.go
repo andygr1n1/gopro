@@ -3,11 +3,14 @@ package lib
 import "fmt"
 
 func Pointers() {
+	// Go has pointers. A pointer holds the memory address of a value.
+	// The type *T is a pointer to a T value. Its zero value is nil.
 	// declare a pointer to an integer (nil by default)
 	var p *int
 	// initialize an integer variable with value 42
 	i := 42
 
+	// The & operator generates a pointer to its operand.
 	// assign the address of i to pointer p
 	p = &i
 
@@ -35,3 +38,6 @@ func Pointers() {
 	// print the value again (still 0)
 	fmt.Println(*p)
 }
+
+// Указатели позволяют создавать новые объекты в памяти с помощью функции `new`.
+// Это полезно для работы с динамическими структурами данных, такими как списки, деревья или графы.
