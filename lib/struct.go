@@ -38,7 +38,7 @@ func Struct() {
 
 	fmt.Println("sum:", v.Sum())
 
-	vr := VertexRequired{X: 1}
+	vr := VertexRequired{X: 1, Y: 2}
 	validate := validator.New()
 	err := validate.Struct(vr)
 	if err != nil {

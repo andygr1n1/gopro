@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gotutorials/lib"
+	"github.com/gotutorials/lib/generic"
 )
 
 func main() {
@@ -11,5 +11,8 @@ func main() {
 	// lib.Defer()
 	// lib.Recover()
 	// lib.Pointers()
-	lib.Struct()
+	// lib.Struct()
+	// lib.Map()
+	// generic.Comparable()
+	generic.GenericTypes()
 }
